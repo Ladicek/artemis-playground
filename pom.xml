@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cz.ladicek.artemis</groupId>
+    <artifactId>parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <modules>
+        <module>amqp</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <version.slf4j>1.7.30</version.slf4j>
+        <version.smallrye-config>2.2.0</version.smallrye-config>
+        <version.smallrye-mutiny>0.14.0</version.smallrye-mutiny> <!-- must be aligned with SRye Reactive Messaging -->
+        <version.smallrye-reactive-messaging>2.9.0</version.smallrye-reactive-messaging>
+        <version.weld>3.1.7.Final</version.weld>
+    </properties>
+
+</project>
